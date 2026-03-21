@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('testing  Branch') {
+        stage('testing time intervel  Branch') {
             steps {
-                echo "Testing testing branch"
+                echo "Testing periodically trigger  branch"
                 sh 'echo testing step here'
             }
         }
