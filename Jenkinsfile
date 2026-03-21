@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('Master') {
+        stage('Dev Branchr') {
             steps {
-                echo "Testing master branch"
-                sh 'echo Master step here'
+                echo "Testing Dev branch"
+                sh 'echo Dev  step here'
             }
         }
     }
