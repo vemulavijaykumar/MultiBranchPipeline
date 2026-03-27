@@ -5,7 +5,7 @@ pipeline {
         stage('Dev Branch') {
             steps {
                 echo "Testing Dev branch"
-                sh 'echo Dev scanning 11.19 pm  new step here'
+                sh 'echo Dev scanning 12.23 27th march  pm  new step here'
             }
         }
     }
