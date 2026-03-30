@@ -5,7 +5,7 @@ pipeline {
         stage('testing time intervel  Branch') {
             steps {
                 echo "Testing periodically trigger  branch"
-                sh 'echo testing webhook 1.27 pm  step here'
+                sh 'echo testing webhook 30th march  11.45 am  step here'
             }
         }
     }
