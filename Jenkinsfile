@@ -5,7 +5,7 @@ pipeline {
         stage('Master') {
             steps {
                 echo "Testing master branch"
-                sh 'echo Master step here'
+                sh 'echo Master 30th march 10.11 AM  step here'
             }
         }
     }
